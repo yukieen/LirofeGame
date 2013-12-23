@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="555.0000999999975" prefWidth="527.0000999999975" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="main.God">
+  <children>
+    <Button fx:id="button" layoutX="14.0" layoutY="14.0" onAction="#handleStartButtonAction" text="Start" />
+    <Label id="label" fx:id="counter" layoutX="264.0" layoutY="17.0" minHeight="16.0" minWidth="51.0" prefWidth="51.0" textAlignment="RIGHT" />
+    <Pane fx:id="canvas" layoutX="14.0" layoutY="43.0" prefHeight="500.0" prefWidth="500.0" style="-fx-border:solid 1px" />
+    <Button layoutX="161.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleResetButtonAction" text="Reset" />
+    <Button layoutX="91.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleStopButtonAction" text="Stop" />
+  </children>
+</AnchorPane>
