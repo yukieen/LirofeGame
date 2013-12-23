@@ -8,7 +8,7 @@ package main;
 
 /**
  *
- * @author lpczclt
+ * @author yukieen
  */
 public class World {
     public final int[][] cells;

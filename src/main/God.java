@@ -61,7 +61,7 @@ public class God implements Initializable {
     @FXML
     private void handleResetButtonAction(ActionEvent event) throws InterruptedException {
         isRotate = false;
-        this.world = new World(InitialIrof.cells);
+        this.world = new World(Irof.cells);
         view(this.world);
         generation = 0;
         counter.setText(Integer.toString(generation));
@@ -69,7 +69,7 @@ public class God implements Initializable {
     
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        this.world = new World(InitialIrof.cells);
+        this.world = new World(Irof.cells);
         view(this.world);
         counter.setText(Integer.toString(generation));
     }
